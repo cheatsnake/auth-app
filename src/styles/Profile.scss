@@ -1,0 +1,30 @@
+.profile {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 420px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    h1 {
+        text-align: center;
+    }
+    input {
+        text-align: center;
+        border: none;
+        background-color: inherit;
+        color: #ff6c37;
+        font-size: 1.5rem;
+        padding: 0rem 0.8rem;
+        border-radius: 0.3rem;
+        &:focus {
+            outline: none;
+        }
+    }
+    label {
+        font-size: 1.4rem;
+        margin: 1rem 0 0 0.5rem;
+    }
+}
